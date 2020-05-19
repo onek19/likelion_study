@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UP-DOWN-GAME</title>
+    <style>
+        body {
+            padding : 50px;
+            text-align: center;
+            background-color: skyblue;
+        }
+
+        #lvlinfo, #info {
+            margin : 0px;
+            color : royalblue ;
+        }
+
+        #box {
+            border : 3px solid white;
+            border-radius: 1cm;
+            background-color : white;
+            width : 60%;
+            margin-left: 20%;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="title">
+        <div id=box>
+            <h2 id="lvlinfo"> * Lv.1 * </h2>
+            <h3 id="info"> number between 1 ~ 30</h3>
+        </div>
+        <h1>Up Down game</h1>
+        <p id="life">Life : <span id="lifecnt">🌝🌝🌝🌝🌝🌝🌝🌝🌝🌝</span></p>
+    </div>
+    <form action="">
+        <input type="text" id="input" maxlength="4">
+        <button id="formbtn">try</button>
+    </form>
+    <div id="result"></div>
+    <script src="updown.js"></script>
+</body>
+</html>
